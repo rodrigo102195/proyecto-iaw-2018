@@ -1,0 +1,173 @@
+{
+  "titulo": "Cerveceria",
+  "descripcion": "Se encuentran los datos de una cerveceria",
+  "tipo": "objeto",
+  "id": {
+    "descripcion": "El identificador unico de la cerveceria",
+    "tipo": "entero"
+  },
+  "nombre": {
+    "descripcion": "Nombre de la cerveceria",
+    "tipo": "string"
+  },
+  "direccion": {
+    "descripcion": "La direccion donde se encuentra",
+    "tipo": "string"
+  },
+  "telefono": {
+    "descripcion": "El numero de telefono",
+    "tipo": "entero"
+  },
+  "cervezas": {
+    "descripcion": "Las cervezas que tienen disponibles",
+    "tipo": "arreglo",
+    "items": {
+      "tipo": "cerveza"
+    }
+  },
+  "puntaje": {
+    "descripcion": "La suma de todos los puntajes generales que tiene la cerveceria",
+    "tipo": "entero",
+  },
+  "cantidadPuntuados": {
+    "descripcion": "La cantidad de veces que se puntuo la cerveceria",
+    "tipo": "entero",
+    "default": "0"
+  },
+  "tragos": {
+    "descripcion": "Los tragos que tienen disponibles",
+    "tipo": "arreglo",
+    "items": {
+      "tipo": "string"
+    }
+  },
+  "comidas": {
+    "descripcion": "Las comidas que tienen disponibles",
+    "tipo": "arrelgo",
+    "items": {
+      "tipo": "string"
+    }
+  },
+  "horarioAbierto": {
+    "descripcion": "Los dias y horarios que tienen abierto",
+    "tipo": "arreglo",
+    "items":{
+      "tipo": "EspecificacionHorario"
+    }
+  },
+  "horarioHappyHour": {
+    "descripcion": "Los dias y horarios en que tienen happy hour",
+    "tipo": "arreglo",
+    "items": {
+      "tipo": "EspecificacionHorario"
+    }
+  },
+  "logo": {
+    "descripcion": "La imagen del logo de la cerveceria",
+    "tipo": "imagen"
+  },
+  "fotoPrincipal" :{
+    "descripcion": "La foto principal de la cerveceria",
+    "tipo": "imagen"
+  },
+  "fotos": {
+    "descripcion": "Fotos de la cerveceria",
+    "tipo": "arreglo",
+    "items": {
+      "tipo": "imagen"
+    }
+  },
+  "linkFacebook": {
+    "descripcion": "El enlace a su pagina de Facebook",
+    "tipo": "String"
+  },
+  "linkInstragam": {
+    "descripcion": "El enlace a su pagina de Instagram",
+    "tipo": "String"
+  }
+}
+
+{
+  "titulo": "EspecificacionHorario",
+  "descripcion": "Un conjunto de dias asociado a un solo horario",
+  "tipo": "objeto",
+  "diasSemana": {
+    "descripcion": "Los dias de la semana",
+    "tipo": "arreglo",
+    "items": {
+      "descripcion": "El nombre del dia",
+      "tipo": "string"
+    }
+  },
+  "abre": {
+    "descripcion": "El horario en que abre",
+    "tipo": "string"
+  },
+  "cierra": {
+    "descripcion": "El horario en que cierra",
+    "tipo": "string"
+  }
+}
+
+{
+  "titulo": "Cerveza",
+  "descripcion": "Se encuentra la descripcion de una cerveza",
+  "nombre": {
+    "descripcion": "El nombre de la cerveza",
+    "tipo": "string"
+  },
+  "marca": {
+    "descripcion": "La marca de la cerveza",
+    "tipo": "string"
+  },
+  "tipo": {
+    "descripcion": "El tipo de la cerveza",
+    "tipo": "string"
+  },
+  "precio": {
+    "descripcion": "El precio de la cerveza",
+    "tipo": "real"
+  },
+  "puntaje": {
+    "descripcion": "La suma de todos los puntajes que tiene la cerveza",
+    "tipo": "entero"
+  },
+  "cantidadPuntuados": {
+    "descripcion": "La cantidad de gente que puntuo la cerveza"
+  },
+  "amargor": {
+    "descripcion": "El amargor de la cerveza",
+    "tipo": "entero"
+  },
+  "graduacionAlcoholica": {
+    "descripcion": "La graduacion alcoholica en porcentaje de la cerveza",
+    "tipo": "real"
+  },
+  "cuerpo": {
+    "descripcion": "El cuerpo de la cerveza",
+    "tipo": "entero"
+  }
+}
+
+{
+  "titulo": "Usuario",
+  "descripcion": "Los datos de cada usuario registrado",
+  "email": {
+    "descripcion": "El mail del usuario",
+    "tipo": "string"
+  },
+  "pass": {
+    "descripcion": "El pass del usuario",
+    "tipo": "string"
+  },
+  "nick": {
+    "descripcion": "El pseudonimo del usuario",
+    "tipo": "string"
+  },
+  "permiso": {
+    "descripcion": "1 es si tiene permisos de administrador, de lo contrario 0",
+    "tipo": "entero",
+    "default": "0",
+    "maximo": "1"
+  }
+}
