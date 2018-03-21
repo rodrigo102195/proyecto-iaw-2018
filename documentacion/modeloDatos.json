@@ -120,8 +120,9 @@
     "descripcion": "La marca de la cerveza",
     "tipo": "string"
   },
-  "tipo": {
-    "descripcion": "El tipo de la cerveza",
+  "tipo": "Cerveceria",
+  "Estilo": {
+    "descripcion": "El estilo de la cerveza",
     "tipo": "string"
   },
   "precio": {
@@ -143,9 +144,9 @@
     "descripcion": "La graduacion alcoholica en porcentaje de la cerveza",
     "tipo": "real"
   },
-  "cuerpo": {
-    "descripcion": "El cuerpo de la cerveza",
-    "tipo": "entero"
+  "color": {
+    "descripcion": "El color de la cerveza",
+    "tipo": "string"
   }
 }
 

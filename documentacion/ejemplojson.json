@@ -1,0 +1,57 @@
+{
+  "id": 127,
+  "tipo": "cerveceria",
+  "nombre": "Bronx",
+  "direccion": "Fuerte Argentino 550",
+  "telefono": "02914074017",
+  "cervezas": ["91","23","44"],
+  "puntaje": "40",
+  "cantidadPuntuados": "8",
+  "tragos": ["HI FI","Tequila Sunrise","Gin Tonic","Cuba Libre"],
+  "comidas": ["Papas","Alitas de pollo"],
+  "horarioAbierto": [
+    {
+      "diasSemana": ["lunes, martes, miércoles, jueves, domingo"],
+      "Abre": "18:30",
+      "Cierra": "03:00"
+    },
+    {
+      "diasSemana": ["viernes, sábado"],
+      "Abre": "18:30",
+      "Cierra": "05:30"
+    }
+  ]
+  ,
+  "horarioHappyHour": {
+    "Abre": "18:30",
+    "Cierra": "20:30"
+  },
+  "logo": "/media/logos/bronx.png",
+  "fotoPrincipal" :"/media/fotos/bronx/foto1.jpg",
+  "fotos": ["/media/fotos/bronx/foto2.jpg","/media/fotos/bronx/foto3.jpg"],
+  "linkFacebook": "https://www.facebook.com/bronxcerveceria/",
+  "linkInstragam": "https://www.instagram.com/bronxcerveceria/"
+}
+
+{
+  "id": "91",
+  "tipo": "cerveza",
+  "estilo": "Ale",
+  "nombre": "Honey",
+  "marca": "Antares",
+  "precio": "72",
+  "puntaje": "35",
+  "cantidadPuntuados": "5",
+  "amargor": "22",
+  "graduacionAlcoholica": "7.5",
+  "color": "Dorado"
+}
+
+{
+  "id": "33",
+  "tipo": "usuario",
+  "email": "usuario@gmail.com",
+  "pass": "passUser",
+  "nick": "nickdeluser",
+  "permiso": "1"
+}
